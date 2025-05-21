@@ -1,4 +1,4 @@
-# 🚀 Checkpoint 5 - 2ESPR
+# 🚀 Checkpoint 6 - 2ESPR
 
 ## 👤 Integrantes
 
