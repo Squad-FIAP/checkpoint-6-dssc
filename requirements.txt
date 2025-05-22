@@ -7,3 +7,4 @@ plotly
 scipy
 Pillow
 uuid
+scikit-learn

@@ -12,13 +12,16 @@ st.title("🔍 Testes de Hipótese - Análise Salarial em AI/ML/DS")
 df = pd.read_csv("src/dataset.csv")
 
 # Introdução
-st.markdown("""
-Os testes de hipótese são ferramentas estatísticas que nos ajudam a tomar decisões com base em dados.
+st.markdown(
+    r"""
+    ## Testes de Hipótese
+    Testes de hipótese são métodos estatísticos utilizados para avaliar suposições sobre uma população a partir de uma amostra.
 
-Neste estudo, vamos aplicar o **teste T de duas amostras** para comparar os salários de diferentes níveis de senioridade (Pleno e Sênior).    
-- **Hipótese nula (H₀)**: Não há diferença significativa entre os salários dos diferentes níveis de senioridade.
-- **Hipótese alternativa (H₁)**: Há uma diferença significativa entre os salários dos diferentes níveis de senioridade.
-""")
+    Neste contexto, utilizaremos o **teste T para duas amostras** a fim de comparar os salários entre profissionais Pleno e Sênior.
+    - **Hipótese nula (H₀)**: As médias salariais de Pleno e Sênior são iguais.
+    - **Hipótese alternativa (H₁)**: As médias salariais de Pleno e Sênior são diferentes.
+    """
+)
 
 # Filtrar os dados para Pleno e Sênior
 salarios_pleno = df[df['experience_level'] == 'MI']['salary_in_usd'].dropna()

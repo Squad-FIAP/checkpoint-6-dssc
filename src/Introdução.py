@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Configuração da Página
-st.set_page_config(page_title="Checkpoint 5 - 2ESPR", layout="wide")
+st.set_page_config(page_title="Checkpoint 6 - 2ESPR", layout="wide")
 
 # Barra lateral com informações
 st.sidebar.markdown("""🧑‍💻 Desenvolvido por:
@@ -13,7 +13,7 @@ st.sidebar.markdown("""🧑‍💻 Desenvolvido por:
 """)
 
 # Introdução
-st.markdown("## Checkpoint 5 - 2ESPR")
+st.markdown("## Checkpoint 6 - 2ESPR")
 st.markdown("### Introdução ao Problema")
 st.write(
     """
